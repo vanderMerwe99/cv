@@ -4,22 +4,22 @@ const themeMap = {
     light: "solar",
     solar: "dark"
   };
-  
+
   const theme = localStorage.getItem('theme')
     || (tmp = Object.keys(themeMap)[0],
         localStorage.setItem('theme', tmp),
         tmp);
   const bodyClass = document.body.classList;
   bodyClass.add(theme);
-  
+
   function toggleTheme() {
     const current = localStorage.getItem('theme');
     const next = themeMap[current];
-  
+
     bodyClass.replace(current, next);
     localStorage.setItem('theme', next);
   }
-  
+
   document.getElementById('themeButton').onclick = toggleTheme;
 //Script for retrieving NASA APOD
 //An asynchronous function to fetch data from the API.
@@ -48,7 +48,7 @@ async function getComics() {
   var hash = "55a45259dd34bf6029ef97eabadc5933";
   console.log(hash);
   var lowerHash = hash.toLowerCase();
-  let response = await fetch(`http://gateway.marvel.com/v1/public/comics?limit=100&ts=1001&apikey=aeebbb13da614eb113df62b666ecfdb4&hash=55a45259dd34bf6029ef97eabadc5933`);
+  let response = await fetch(`https://gateway.marvel.com/v1/public/comics?limit=100&ts=1001&apikey=aeebbb13da614eb113df62b666ecfdb4&hash=55a45259dd34bf6029ef97eabadc5933`);
   console.log(response);
   let objects = await response.json()
   console.log(objects)
