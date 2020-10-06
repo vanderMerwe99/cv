@@ -88,7 +88,7 @@ async function getAdvice(){
   //console.log(data)
   setAdvice(data)
 }
-function setAdvice(data){
+async function setAdvice(data){
   document.querySelector("#advice").innerHTML = data.slip.advice
 }
 getAdvice();
