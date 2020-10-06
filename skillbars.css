@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+::selection{
+  color: #fff;
+  background: #6665ee;
+}
+.skill-bars{
+  margin: 5rem;
+  padding: 25px 30px;
+  width: 800px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.skill-barsText{
+  margin: 5rem;
+  padding: 25px 30px;
+  width: 800px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+.skill-barsProjects{
+  margin: 5rem;
+  padding: 25px 30px;
+  width: 800px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  color: #000;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 82%;
+}
+.bar .progress-line.css span{
+  width: 68%;
+}
+.bar .progress-line.jquery span{
+  width: 60%;
+}
+.bar .progress-line.python span{
+  width: 63%;
+}
+.bar .progress-line.mysql span{
+  width: 70%;
+}
+.bar .progress-line.java span{
+    width: 74%;
+  }
+  .bar .progress-line.csnet span{
+    width: 80%;
+  }
+  .bar .progress-line.c span{
+    width: 78%;
+  }
+  .bar .progress-line.aios span{
+    width: 45%;
+  }
+  .bar .progress-line.php span{
+    width: 40%;
+  }
+/*PROGRESS HIGH SCHOOL*/
+.bar .progress-line.cat span{
+    width: 84%;
+  }
+  .bar .progress-line.math span{
+    width: 64%;
+  }
+  .bar .progress-line.eng span{
+    width: 81%;
+  }
+  .bar .progress-line.afr span{
+    width: 80%;
+  }
+  .bar .progress-line.egd span{
+    width: 73%;
+  }
+  .bar .progress-line.phs span{
+    width: 69%;
+  }
+  /*PROGRESS UNIVERSITY BEST*/
+.bar .progress-line.uip span{
+    width: 83%;
+  }
+  .bar .progress-line.dss span{
+    width: 82%;
+  }
+  .bar .progress-line.ai span{
+    width: 81%;
+  }
+  .bar .progress-line.fa span{
+    width: 79%;
+  }
+  .bar .progress-line.cn span{
+    width: 76%;
+  }
+  .bar .progress-line.is span{
+    width: 75%;
+  }
+  .bar .progress-line.dsna span{
+    width: 71%;
+  }
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "85%";
+}
+.progress-line.css span::after{
+  content: "70%";
+}
+.progress-line.jquery span::after{
+  content: "60%";
+}
+.progress-line.python span::after{
+  content: "60%";
+}
+.progress-line.mysql span::after{
+  content: "70%";
+}
+.progress-line.java span::after{
+    content: "74%";
+}
+.progress-line.csnet span::after{
+    content: "80%";
+}
+.progress-line.c span::after{
+    content: "78%";
+}
+.progress-line.aios span::after{
+    content: "45%";
+}
+.progress-line.php span::after{
+  content: "40%";
+}
+/*HIGH SCHOOL PROGRESS CTD.*/
+.progress-line.cat span::after{
+    content: "84%";
+  }
+.progress-line.math span::after{
+    content: "64%";
+  }
+.progress-line.eng span::after{
+    content: "81%";
+  }
+.progress-line.afr span::after{
+    content: "80%";
+  }
+.progress-line.egd span::after{
+    content: "73%";
+  }
+.progress-line.phs span::after{
+    content: "69%";
+  }
+/*VARSITY BEST CTD*/
+.progress-line.uip span::after{
+    content: "83%";
+}
+.progress-line.dss span::after{
+    content: "82%";
+}
+.progress-line.ai span::after{
+    content: "81%";
+}
+.progress-line.fa span::after{
+    content: "79%";
+}
+.progress-line.cn span::after{
+    content: "76%";
+}
+.progress-line.is span::after{
+    content: "75%";
+}
+.progress-line.dsna span::after{
+    content: "71%";
+}
+/*ANALYTICS SKILLS*/
+.bar .progress-line.r span{
+    width: 60%;
+  }
+  .bar .progress-line.qa span{
+    width: 82%;
+  }
+  .bar .progress-line.ddm span{
+    width: 68%;
+  }
+  .bar .progress-line.pdm span{
+    width: 66%;
+  }
+  .bar .progress-line.ds span{
+    width: 80%;
+  }
+  .bar .progress-line.ae span{
+    width: 78%;
+  }
+  .bar .progress-line.bd span{
+    width: 40%;
+  }
+  .progress-line.r span::after{
+    content: "60%";
+  }
+  .progress-line.qa span::after{
+    content: "82%";
+  }
+  .progress-line.ddm span::after{
+    content: "68%";
+  }
+  .progress-line.pdm span::after{
+    content: "66%";
+  }
+  .progress-line.ds span::after{
+    content: "80%";
+  }
+  .progress-line.ae span::after{
+    content: "78%";
+  }
+  .progress-line.bd span::after{
+    content: "40%";
+  }
+  /*FOOTER*/
+  .footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+}
