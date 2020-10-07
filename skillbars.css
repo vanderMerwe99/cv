@@ -294,49 +294,46 @@
   .progress-line.bd span::after{
     content: "40%";
   }
-  /*FOOTER*/
-  .footer-distributed{
-	background: #444;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	font: bold 16px sans-serif;
-	text-align: left;
-	padding: 50px 60px 40px;
-	overflow: hidden;
+  /*Small screens*/
+@media only screen and (max-width:1350px) {
+  .skill-barsText {
+    bottom: 0;
+    width: 80%;
+  }
+
+  .skill-bars {
+    bottom: 0;
+    width: 80%;
+  }
+
+  .skill-barsProjects {
+    bottom: 0;
+    width: 80%;
+  }
+
+  main {
+    margin-left: 20px;
+    margin-right: 40px;
+  }
 }
+@media only screen and (max-width: 600px) {
+  .skill-barsText {
+    bottom: 0;
+    width: 80%;
+  }
 
-.footer-distributed .footer-icons{
-	margin-top: 40px;
-}
+  .skill-bars {
+    bottom: 0;
+    width: 80%;
+  }
 
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
+  .skill-barsProjects {
+    bottom: 0;
+    width: 80%;
+  }
 
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
-}
-
-@media (max-width: 1000px) {
-
-	.footer-distributed {
-		font: bold 14px sans-serif;
-	}
-}
-
-@media (max-width: 800px) {
-
-	.footer-distributed{
-		padding: 30px;
-	}
+  main {
+    margin-left: -70px;
+    margin-right: 40px;
+  }
 }
