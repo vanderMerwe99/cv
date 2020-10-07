@@ -295,45 +295,54 @@
     content: "40%";
   }
   /*Small screens*/
-@media only screen and (max-width:1350px) {
-  .skill-barsText {
-    bottom: 0;
-    width: 80%;
-  }
+  @media only screen and (max-width:1350px) {
+    .skill-barsText {
+      bottom: 0;
+      width: 80%;
+    }
 
-  .skill-bars {
-    bottom: 0;
-    width: 80%;
-  }
+    .skill-bars {
+      bottom: 0;
+      width: 80%;
+    }
 
-  .skill-barsProjects {
-    bottom: 0;
-    width: 80%;
-  }
+    .skill-barsProjects {
+      bottom: 0;
+      width: 80%;
+    }
 
-  main {
-    margin-left: 20px;
-    margin-right: 40px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .skill-barsText {
-    bottom: 0;
-    width: 80%;
-  }
 
-  .skill-bars {
-    bottom: 0;
-    width: 80%;
-  }
+    .images{
+      width: 70%;
+    }
 
-  .skill-barsProjects {
-    bottom: 0;
-    width: 80%;
+    main {
+      margin-left: 20px;
+      margin-right: 40px;
+    }
   }
+  @media only screen and (max-width: 600px) {
+    .skill-barsText {
+      bottom: 0;
+      width: 80%;
+    }
 
-  main {
-    margin-left: -70px;
-    margin-right: 40px;
+    .skill-bars {
+      bottom: 0;
+      width: 80%;
+    }
+
+    .skill-barsProjects {
+      bottom: 0;
+      width: 80%;
+    }
+
+    .images{
+      width: 70%;
+    }
+
+    main {
+      margin-left: -70px;
+      margin-right: 40px;
+    }
   }
-}
