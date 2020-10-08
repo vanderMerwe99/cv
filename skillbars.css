@@ -320,15 +320,6 @@
     .images{
       width: 70%;
     }
-
-    main {
-      margin-left: 80px;
-      margin-right: -80px;
-    }
-    footer{
-      margin-left: 40px;
-      margin-right: 40px;
-    }
   }
   @media only screen and (max-width: 600px) {
     .skill-barsText {
