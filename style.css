@@ -44,7 +44,7 @@
 
   main {
     margin-top: 2rem;
-    margin-left: 18rem;
+    margin-left: 14rem;
     margin-right: 18rem;
     background-color: transparent;
     color: var(--text-primary);
@@ -333,7 +333,7 @@ p{
   text-align: center;
 }
 
-.image{
+.images{
   width: 500px;
   height: 400px;
 }
