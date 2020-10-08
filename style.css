@@ -398,15 +398,13 @@ footer{
   margin-right: 18rem;
 }
 
-@media (max-width: 300px) {
-    width: 80%;
-}
-
-divFooter {
-    display: flex;
-    width: 80%;
-    align-items: center;
-    flex-direction: row;
+@media (min-width: 300px) {
+  divFooter {
+      display: flex;
+      width: 80%;
+      align-items: center;
+      flex-direction: row;
+  }
 }
 
 @keyframes wave-animation {
