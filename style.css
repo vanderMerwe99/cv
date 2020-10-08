@@ -264,6 +264,11 @@
   background-position: center;
   width: 70%;
 }
+.imgCV {
+  background-position: center;
+  width: 40%;
+  height: 250px;
+}
 
 .card-body {
 	color: #000000;
