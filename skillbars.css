@@ -324,6 +324,12 @@
       margin-left: -70px;
       margin-right: 40px;
     }
+    divFooter {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        flex-direction: row;
+    }
   }
   @media only screen and (max-width: 600px) {
     .skill-barsText {
@@ -352,5 +358,11 @@
     footer {
       margin-left: -70px;
       margin-right: 40px;
+    }
+    divFooter {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        flex-direction: row;
     }
   }
