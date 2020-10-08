@@ -320,6 +320,10 @@
       margin-left: 20px;
       margin-right: 40px;
     }
+    footer{
+      margin-left: 20px;
+      margin-right: 40px;
+    }
   }
   @media only screen and (max-width: 600px) {
     .skill-barsText {
@@ -344,3 +348,9 @@
     main {
       margin-left: -70px;
       margin-right: 40px;
+    }
+    footer{
+      margin-left: -70px;
+      margin-right: 40px;
+    }
+  }
