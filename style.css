@@ -392,28 +392,3 @@ button.big-button:active {
 button.big-button:active::before {
   transform: translate3d(0, 0, -1em);
 }
-
-footer{
-  margin-left: 14rem;
-  margin-right: 18rem;
-}
-
-@media (min-width: 500px) {
-  divFooter {
-    bottom: 0;
-    width: 80%;
-  }
-}
-
-@keyframes wave-animation {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(20deg);
-  }
-  75% {
-    transform: rotate(-15deg);
-  }
-}
