@@ -294,6 +294,11 @@
   .progress-line.bd span::after{
     content: "40%";
   }
+  footer{
+    margin-bottom: 0rem;
+    margin-left: 14rem;
+    margin-right: 18rem;
+  }
   /*Small screens*/
   @media only screen and (max-width:1550px) {
     .skill-barsText {
