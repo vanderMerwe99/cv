@@ -325,10 +325,8 @@
       margin-right: 40px;
     }
     divFooter {
-        display: flex;
-        width: 80%;
-        align-items: center;
-        flex-direction: row;
+      bottom: 0;
+      width: 80%;
     }
   }
   @media only screen and (max-width: 600px) {
@@ -360,9 +358,7 @@
       margin-right: 40px;
     }
     divFooter {
-        display: flex;
-        width: 80%;
-        align-items: center;
-        flex-direction: row;
+      bottom: 0;
+      width: 80%;
     }
   }
