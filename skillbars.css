@@ -321,8 +321,7 @@
       width: 70%;
     }
     main {
-      margin-left: 80px;
-      margin-right: -80px;
+      width: 80%;
     }
   }
   @media only screen and (max-width: 600px) {
