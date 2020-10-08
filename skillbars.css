@@ -295,7 +295,7 @@
     content: "40%";
   }
   /*Small screens*/
-  @media only screen and (max-width:1390px) {
+  @media only screen and (max-width:1350px) {
     .skill-barsText {
       bottom: 0;
       width: 80%;
@@ -315,6 +315,7 @@
     .images{
       width: 70%;
     }
+
     main {
       margin-left: 20px;
       margin-right: 40px;
