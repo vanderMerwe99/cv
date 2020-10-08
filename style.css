@@ -406,7 +406,7 @@ footer{
 
 divFooter {
     display: flex;
-    width: auto;
+    width: 80%;
     align-items: center;
     flex-direction: row;
 }
