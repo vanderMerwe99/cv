@@ -398,7 +398,7 @@ footer{
   margin-right: 18rem;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   ul {
     grid-auto-flow: column;
   }
