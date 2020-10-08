@@ -311,13 +311,8 @@
       width: 80%;
     }
 
-
-    .images{
-      width: 70%;
-    }
-
     main {
-      margin-left: 20px;
+      margin-left: 60px;
       margin-right: 40px;
     }
   }
@@ -335,10 +330,6 @@
     .skill-barsProjects {
       bottom: 0;
       width: 80%;
-    }
-
-    .images{
-      width: 70%;
     }
 
     main {
