@@ -398,7 +398,7 @@ footer{
   margin-right: 18rem;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 500px) {
   divFooter {
       display: flex;
       width: 80%;
