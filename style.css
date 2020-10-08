@@ -399,10 +399,7 @@ footer{
 }
 
 @media (max-width: 300px) {
-  ul {
-    grid-auto-flow: row;
     width: 80%;
-  }
 }
 
 divFooter {
