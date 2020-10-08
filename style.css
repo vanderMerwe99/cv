@@ -44,8 +44,7 @@
 
   main {
     margin-top: 2rem;
-    margin-left: 14rem;
-    margin-right: 18rem;
+    width: 80%;
     background-color: transparent;
     color: var(--text-primary);
   }
