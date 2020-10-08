@@ -7,6 +7,11 @@
     --bg-secondary: #141418;
     --bg-themes: #576e75;
     --sb-themes: #576e75;
+    --colorShadeA: rgb(106, 163, 137);
+    --colorShadeB: rgb(121, 186, 156);
+    --colorShadeC: rgb(150, 232, 195);
+    --colorShadeD: rgb(187, 232, 211);
+    --colorShadeE: rgb(205, 255, 232);
     --transition-speed: 900ms;
   }
 
@@ -386,4 +391,35 @@ button.big-button:active {
 }
 button.big-button:active::before {
   transform: translate3d(0, 0, -1em);
+}
+
+footer{
+  margin-left: 14rem;
+  margin-right: 18rem;
+}
+
+@media (min-width: 500px) {
+  ul {
+    grid-auto-flow: column;
+  }
+}
+
+divFooter {
+    display: flex;
+    width: auto;
+    align-items: center;
+    flex-direction: row;
+}
+
+@keyframes wave-animation {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
 }
