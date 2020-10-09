@@ -26,9 +26,9 @@ const themeMap = {
 async function sendApiRequest(){
   let API_KEY = "cXFz6W3N4sbNh5UVDHdIihxLcwhslR8rDgDKfh4y"
   let response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`);
-  console.log(response)
+  //console.log(response)
   let data = await response.json()
-  console.log(data)
+  //console.log(data)
   useApiData(data)
 }
 //function that does something with the data received from the API.
@@ -42,16 +42,15 @@ sendApiRequest();
 //Script for retrieving Marvel Comics info.
 async function getComics() {
   var PUB_KEY = "aeebbb13da614eb113df62b666ecfdb4";
-  var PRIV_KEY = "17733b3aef9fbe961d412a66f19831dbe0145027";
   var timeStamp = Math.floor(Date.now() / 1000);
-  console.log(timeStamp);
+  //console.log(timeStamp);
   var hash = "55a45259dd34bf6029ef97eabadc5933";
-  console.log(hash);
+  //console.log(hash);
   var lowerHash = hash.toLowerCase();
   let response = await fetch(`https://gateway.marvel.com/v1/public/comics?limit=100&ts=1001&apikey=aeebbb13da614eb113df62b666ecfdb4&hash=55a45259dd34bf6029ef97eabadc5933`);
-  console.log(response);
+  //console.log(response);
   let objects = await response.json()
-  console.log(objects)
+  //console.log(objects)
   useMarvelData(objects);
 }
 /*GET A RANDOM COMIC'S INFO*/
@@ -78,7 +77,7 @@ function useMarvelData(objects){
 async function setImg(halfPath, size, extension){
   var fullPath = halfPath+size+extension;
   document.getElementById('comicPicture').src = fullPath
-  console.log(fullPath);
+  //console.log(fullPath);
 }
 getComics();
 async function getAdvice(){
